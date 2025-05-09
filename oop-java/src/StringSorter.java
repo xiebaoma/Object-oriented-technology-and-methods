@@ -15,7 +15,7 @@ public class StringSorter {
                 lines.add(line);
             }
         } catch (IOException e) {
-            System.err.println("读取文件失败: " + e.getMessage()); 
+            System.err.println("读取文件失败: " + e.getMessage());
             return;
         }
 
